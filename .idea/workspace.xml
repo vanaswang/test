@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WEBTEST:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77009dfc-a76b-4d74-90ef-0d3229ac64fa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/LocalRepository" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.5.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZqXZiTf8I2YN7GFUFxz3mUdqBx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/compression" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="debugger.hotswap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Hdfs/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/compression" />
+      <recent name="$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/source" />
+      <recent name="$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/diypartitioner2" />
+      <recent name="$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/combiner" />
+      <recent name="$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/diypartitioner" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.mr.writablecomparable" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.mr.outputFormat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootdemoApplication">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.zookeeper.Client" />
+      <module name="ZooKeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server hadoop133" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.zookeeper.Server" />
+      <module name="ZooKeeperDemo" />
+      <option name="PROGRAM_PARAMETERS" value="hadoop133 ResourceManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.zookeeper.Server" />
+      <module name="ZooKeeperDemo" />
+      <option name="PROGRAM_PARAMETERS" value="hadoop130 NameNode " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJson.JavaToJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WEBTEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.json" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.json.TestJson" />
+      <option name="METHOD_NAME" value="JavaToJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestZookeeper.testDeleteNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZooKeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.zookeeper.TestZookeeper" />
+      <option name="METHOD_NAME" value="testDeleteNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestZookeeper.testNodeData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ZooKeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.zookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.zookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.zookeeper.TestZookeeper" />
+      <option name="METHOD_NAME" value="testNodeData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springbootdemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.springbootdemo.SpringbootdemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.103" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEBTEST/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="WEBTEST:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/WEBTEST" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_HiveDemo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64465" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WEBTEST:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server hadoop133" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="JUnit.TestZookeeper.testNodeData" />
+      <item itemvalue="JUnit.TestZookeeper.testDeleteNode" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Spring Boot.SpringbootdemoApplication" />
+      <item itemvalue="JUnit.TestJson.JavaToJson" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestJson.JavaToJson" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.TestZookeeper.testDeleteNode" />
+        <item itemvalue="JUnit.TestZookeeper.testNodeData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77009dfc-a76b-4d74-90ef-0d3229ac64fa" name="Default Changelist" comment="" />
+      <created>1585567654619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585567654619</updated>
+      <workItem from="1585567655883" duration="2931000" />
+      <workItem from="1585570758874" duration="477000" />
+      <workItem from="1585615906450" duration="3903000" />
+      <workItem from="1586349483859" duration="1004000" />
+      <workItem from="1586664854552" duration="301000" />
+      <workItem from="1586737644622" duration="19113000" />
+      <workItem from="1586827019691" duration="14219000" />
+      <workItem from="1586875473236" duration="582000" />
+      <workItem from="1586876224879" duration="965000" />
+      <workItem from="1586911973867" duration="68150000" />
+      <workItem from="1587263874106" duration="8095000" />
+      <workItem from="1587288728186" duration="18189000" />
+      <workItem from="1587364992944" duration="15906000" />
+      <workItem from="1587530188795" duration="6213000" />
+      <workItem from="1587623048465" duration="3848000" />
+      <workItem from="1588054357868" duration="7384000" />
+      <workItem from="1588129913643" duration="92000" />
+      <workItem from="1588130020305" duration="2124000" />
+      <workItem from="1588132179862" duration="516000" />
+      <workItem from="1588132763193" duration="3774000" />
+      <workItem from="1588167860148" duration="465000" />
+      <workItem from="1588218829781" duration="14328000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="796" y="237" key="#Inspections" timestamp="1585570471493">
+      <screen x="45" y="23" width="1747" height="1097" />
+    </state>
+    <state x="796" y="237" key="#Inspections/45.23.1747.1097@45.23.1747.1097" timestamp="1585570471493" />
+    <state x="321" y="237" key="#Notifications" timestamp="1586876636618">
+      <screen x="47" y="23" width="1745" height="1097" />
+    </state>
+    <state x="321" y="237" key="#Notifications/47.23.1745.1097@47.23.1745.1097" timestamp="1586876636618" />
+    <state x="682" y="134" width="1066" height="669" key="#Project_Structure" timestamp="1588221722308">
+      <screen x="39" y="23" width="1753" height="1097" />
+    </state>
+    <state x="801" y="237" key="#Project_Structure/37.23.1755.1097@37.23.1755.1097" timestamp="1588132539492" />
+    <state x="682" y="134" width="1066" height="669" key="#Project_Structure/39.23.1753.1097@39.23.1753.1097" timestamp="1588221722308" />
+    <state x="804" y="237" key="#Project_Structure/42.23.1750.1097@42.23.1750.1097" timestamp="1587218200509" />
+    <state x="807" y="237" key="#Project_Structure/47.23.1745.1097@47.23.1745.1097" timestamp="1585567929333" />
+    <state x="882" y="366" key="#Tomcat_Server" timestamp="1588227277688">
+      <screen x="39" y="23" width="1753" height="1097" />
+    </state>
+    <state x="882" y="366" key="#Tomcat_Server/39.23.1753.1097@39.23.1753.1097" timestamp="1588227277688" />
+    <state x="132" y="328" width="865" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588240652111">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="850" y="363" width="865" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/39.23.1753.1097@39.23.1753.1097" timestamp="1588227852162" />
+    <state x="132" y="328" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1752.1097@40.23.1752.1097" timestamp="1588240652111" />
+    <state x="636" y="264" key="#com.intellij.execution.impl.EditConfigurationsDialog/41.23.1751.1097@41.23.1751.1097" timestamp="1587355323316" />
+    <state x="235" y="261" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.1750.1097@42.23.1750.1097" timestamp="1587521439572" />
+    <state x="245" y="250" key="#com.intellij.execution.impl.EditConfigurationsDialog/43.23.1749.1097@43.23.1749.1097" timestamp="1587556518428" />
+    <state x="791" y="273" width="855" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1748.1097@44.23.1748.1097" timestamp="1587545635957" />
+    <state x="707" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/48.23.1744.1097@48.23.1744.1097" timestamp="1586915409578" />
+    <state x="1061" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1588246617716">
+      <screen x="39" y="23" width="1753" height="1097" />
+    </state>
+    <state x="1060" y="266" key="#com.intellij.ide.util.MemberChooser/37.23.1755.1097@37.23.1755.1097" timestamp="1588131962364" />
+    <state x="1061" y="266" key="#com.intellij.ide.util.MemberChooser/39.23.1753.1097@39.23.1753.1097" timestamp="1588246617716" />
+    <state x="1062" y="266" key="#com.intellij.ide.util.MemberChooser/42.23.1750.1097@42.23.1750.1097" timestamp="1588057035050" />
+    <state x="1063" y="266" key="#com.intellij.ide.util.MemberChooser/43.23.1749.1097@43.23.1749.1097" timestamp="1588054664009" />
+    <state x="1063" y="266" key="#com.intellij.ide.util.MemberChooser/44.23.1748.1097@44.23.1748.1097" timestamp="1587650665494" />
+    <state x="1063" y="266" key="#com.intellij.ide.util.MemberChooser/45.23.1747.1097@45.23.1747.1097" timestamp="1587091982167" />
+    <state x="697" y="411" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587521030259">
+      <screen x="42" y="23" width="1750" height="1097" />
+    </state>
+    <state x="697" y="411" key="#com.intellij.ide.util.TreeClassChooserDialog/42.23.1750.1097@42.23.1750.1097" timestamp="1587521030259" />
+    <state x="586" y="267" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1588219220196">
+      <screen x="41" y="23" width="1751" height="1097" />
+    </state>
+    <state x="586" y="267" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/41.23.1751.1097@41.23.1751.1097" timestamp="1588219220196" />
+    <state x="1201" y="467" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588130391404">
+      <screen x="37" y="23" width="1755" height="1097" />
+    </state>
+    <state x="1201" y="467" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1588130391404" />
+    <state x="164" y="331" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1588240635366">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="164" y="331" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/40.23.1752.1097@40.23.1752.1097" timestamp="1588240635366" />
+    <state x="165" y="504" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587101973668">
+      <screen x="45" y="23" width="1747" height="1097" />
+    </state>
+    <state x="165" y="504" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/45.23.1747.1097@45.23.1747.1097" timestamp="1587101973668" />
+    <state x="519" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587112192123">
+      <screen x="42" y="23" width="1750" height="1097" />
+    </state>
+    <state x="519" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/42.23.1750.1097@42.23.1750.1097" timestamp="1587112192123" />
+    <state width="1040" height="257" key="GridCell.Tab.0.bottom" timestamp="1588252179643">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1060" height="257" key="GridCell.Tab.0.bottom/35.23.1757.1097@35.23.1757.1097" timestamp="1588146396108" />
+    <state width="1060" height="257" key="GridCell.Tab.0.bottom/36.23.1756.1097@36.23.1756.1097" timestamp="1588137641161" />
+    <state width="1149" height="257" key="GridCell.Tab.0.bottom/37.23.1755.1097@37.23.1755.1097" timestamp="1588132696978" />
+    <state width="1047" height="219" key="GridCell.Tab.0.bottom/38.23.1754.1097@38.23.1754.1097" timestamp="1586861944482" />
+    <state width="1040" height="257" key="GridCell.Tab.0.bottom/39.23.1753.1097@39.23.1753.1097" timestamp="1588247400770" />
+    <state width="1040" height="257" key="GridCell.Tab.0.bottom/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179643" />
+    <state width="1022" height="257" key="GridCell.Tab.0.bottom/41.23.1751.1097@41.23.1751.1097" timestamp="1587458982180" />
+    <state width="1526" height="257" key="GridCell.Tab.0.bottom/42.23.1750.1097@42.23.1750.1097" timestamp="1588058914208" />
+    <state width="992" height="257" key="GridCell.Tab.0.bottom/43.23.1749.1097@43.23.1749.1097" timestamp="1588073998891" />
+    <state width="1281" height="257" key="GridCell.Tab.0.bottom/44.23.1748.1097@44.23.1748.1097" timestamp="1587612535347" />
+    <state width="1130" height="214" key="GridCell.Tab.0.bottom/45.23.1747.1097@45.23.1747.1097" timestamp="1587102391546" />
+    <state width="1290" height="306" key="GridCell.Tab.0.bottom/47.23.1745.1097@47.23.1745.1097" timestamp="1586877192480" />
+    <state width="1001" height="219" key="GridCell.Tab.0.bottom/48.23.1744.1097@48.23.1744.1097" timestamp="1586915415928" />
+    <state width="1040" height="257" key="GridCell.Tab.0.center" timestamp="1588252179642">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1060" height="257" key="GridCell.Tab.0.center/35.23.1757.1097@35.23.1757.1097" timestamp="1588146396108" />
+    <state width="1060" height="257" key="GridCell.Tab.0.center/36.23.1756.1097@36.23.1756.1097" timestamp="1588137641160" />
+    <state width="1149" height="257" key="GridCell.Tab.0.center/37.23.1755.1097@37.23.1755.1097" timestamp="1588132696978" />
+    <state width="1047" height="219" key="GridCell.Tab.0.center/38.23.1754.1097@38.23.1754.1097" timestamp="1586861944481" />
+    <state width="1040" height="257" key="GridCell.Tab.0.center/39.23.1753.1097@39.23.1753.1097" timestamp="1588247400770" />
+    <state width="1040" height="257" key="GridCell.Tab.0.center/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179642" />
+    <state width="1022" height="257" key="GridCell.Tab.0.center/41.23.1751.1097@41.23.1751.1097" timestamp="1587458982180" />
+    <state width="1526" height="257" key="GridCell.Tab.0.center/42.23.1750.1097@42.23.1750.1097" timestamp="1588058914207" />
+    <state width="992" height="257" key="GridCell.Tab.0.center/43.23.1749.1097@43.23.1749.1097" timestamp="1588073998891" />
+    <state width="1281" height="257" key="GridCell.Tab.0.center/44.23.1748.1097@44.23.1748.1097" timestamp="1587612535347" />
+    <state width="1130" height="214" key="GridCell.Tab.0.center/45.23.1747.1097@45.23.1747.1097" timestamp="1587102391545" />
+    <state width="1290" height="306" key="GridCell.Tab.0.center/47.23.1745.1097@47.23.1745.1097" timestamp="1586877192480" />
+    <state width="1001" height="219" key="GridCell.Tab.0.center/48.23.1744.1097@48.23.1744.1097" timestamp="1586915415927" />
+    <state width="1040" height="257" key="GridCell.Tab.0.left" timestamp="1588252179642">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1060" height="257" key="GridCell.Tab.0.left/35.23.1757.1097@35.23.1757.1097" timestamp="1588146396107" />
+    <state width="1060" height="257" key="GridCell.Tab.0.left/36.23.1756.1097@36.23.1756.1097" timestamp="1588137641160" />
+    <state width="1149" height="257" key="GridCell.Tab.0.left/37.23.1755.1097@37.23.1755.1097" timestamp="1588132696978" />
+    <state width="1047" height="219" key="GridCell.Tab.0.left/38.23.1754.1097@38.23.1754.1097" timestamp="1586861944480" />
+    <state width="1040" height="257" key="GridCell.Tab.0.left/39.23.1753.1097@39.23.1753.1097" timestamp="1588247400769" />
+    <state width="1040" height="257" key="GridCell.Tab.0.left/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179642" />
+    <state width="1022" height="257" key="GridCell.Tab.0.left/41.23.1751.1097@41.23.1751.1097" timestamp="1587458982179" />
+    <state width="1526" height="257" key="GridCell.Tab.0.left/42.23.1750.1097@42.23.1750.1097" timestamp="1588058914207" />
+    <state width="992" height="257" key="GridCell.Tab.0.left/43.23.1749.1097@43.23.1749.1097" timestamp="1588073998890" />
+    <state width="1281" height="257" key="GridCell.Tab.0.left/44.23.1748.1097@44.23.1748.1097" timestamp="1587612535347" />
+    <state width="1130" height="214" key="GridCell.Tab.0.left/45.23.1747.1097@45.23.1747.1097" timestamp="1587102391545" />
+    <state width="1290" height="306" key="GridCell.Tab.0.left/47.23.1745.1097@47.23.1745.1097" timestamp="1586877192479" />
+    <state width="1001" height="219" key="GridCell.Tab.0.left/48.23.1744.1097@48.23.1744.1097" timestamp="1586915415926" />
+    <state width="1040" height="257" key="GridCell.Tab.0.right" timestamp="1588252179642">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1060" height="257" key="GridCell.Tab.0.right/35.23.1757.1097@35.23.1757.1097" timestamp="1588146396108" />
+    <state width="1060" height="257" key="GridCell.Tab.0.right/36.23.1756.1097@36.23.1756.1097" timestamp="1588137641161" />
+    <state width="1149" height="257" key="GridCell.Tab.0.right/37.23.1755.1097@37.23.1755.1097" timestamp="1588132696978" />
+    <state width="1047" height="219" key="GridCell.Tab.0.right/38.23.1754.1097@38.23.1754.1097" timestamp="1586861944481" />
+    <state width="1040" height="257" key="GridCell.Tab.0.right/39.23.1753.1097@39.23.1753.1097" timestamp="1588247400770" />
+    <state width="1040" height="257" key="GridCell.Tab.0.right/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179642" />
+    <state width="1022" height="257" key="GridCell.Tab.0.right/41.23.1751.1097@41.23.1751.1097" timestamp="1587458982180" />
+    <state width="1526" height="257" key="GridCell.Tab.0.right/42.23.1750.1097@42.23.1750.1097" timestamp="1588058914208" />
+    <state width="992" height="257" key="GridCell.Tab.0.right/43.23.1749.1097@43.23.1749.1097" timestamp="1588073998891" />
+    <state width="1281" height="257" key="GridCell.Tab.0.right/44.23.1748.1097@44.23.1748.1097" timestamp="1587612535347" />
+    <state width="1130" height="214" key="GridCell.Tab.0.right/45.23.1747.1097@45.23.1747.1097" timestamp="1587102391546" />
+    <state width="1290" height="306" key="GridCell.Tab.0.right/47.23.1745.1097@47.23.1745.1097" timestamp="1586877192480" />
+    <state width="1001" height="219" key="GridCell.Tab.0.right/48.23.1744.1097@48.23.1744.1097" timestamp="1586915415927" />
+    <state width="1040" height="257" key="GridCell.Tab.1.bottom" timestamp="1588252179643">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1047" height="217" key="GridCell.Tab.1.bottom/37.23.1755.1097@37.23.1755.1097" timestamp="1586782414262" />
+    <state width="1040" height="257" key="GridCell.Tab.1.bottom/39.23.1753.1097@39.23.1753.1097" timestamp="1588247400771" />
+    <state width="1040" height="257" key="GridCell.Tab.1.bottom/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179643" />
+    <state width="976" height="150" key="GridCell.Tab.1.bottom/41.23.1751.1097@41.23.1751.1097" timestamp="1587266884823" />
+    <state width="913" height="329" key="GridCell.Tab.1.bottom/42.23.1750.1097@42.23.1750.1097" timestamp="1587299959313" />
+    <state width="913" height="329" key="GridCell.Tab.1.bottom/43.23.1749.1097@43.23.1749.1097" timestamp="1587364233268" />
+    <state width="1215" height="224" key="GridCell.Tab.1.bottom/44.23.1748.1097@44.23.1748.1097" timestamp="1587179093245" />
+    <state width="1290" height="306" key="GridCell.Tab.1.bottom/47.23.1745.1097@47.23.1745.1097" timestamp="1586877192481" />
+    <state width="1040" height="257" key="GridCell.Tab.1.center" timestamp="1588252179643">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1047" height="217" key="GridCell.Tab.1.center/37.23.1755.1097@37.23.1755.1097" timestamp="1586782414261" />
+    <state width="1040" height="257" key="GridCell.Tab.1.center/39.23.1753.1097@39.23.1753.1097" timestamp="1588247400771" />
+    <state width="1040" height="257" key="GridCell.Tab.1.center/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179643" />
+    <state width="976" height="150" key="GridCell.Tab.1.center/41.23.1751.1097@41.23.1751.1097" timestamp="1587266884822" />
+    <state width="913" height="329" key="GridCell.Tab.1.center/42.23.1750.1097@42.23.1750.1097" timestamp="1587299959312" />
+    <state width="913" height="329" key="GridCell.Tab.1.center/43.23.1749.1097@43.23.1749.1097" timestamp="1587364233267" />
+    <state width="1215" height="224" key="GridCell.Tab.1.center/44.23.1748.1097@44.23.1748.1097" timestamp="1587179093243" />
+    <state width="1290" height="306" key="GridCell.Tab.1.center/47.23.1745.1097@47.23.1745.1097" timestamp="1586877192480" />
+    <state width="1040" height="257" key="GridCell.Tab.1.left" timestamp="1588252179643">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1047" height="217" key="GridCell.Tab.1.left/37.23.1755.1097@37.23.1755.1097" timestamp="1586782414261" />
+    <state width="1040" height="257" key="GridCell.Tab.1.left/39.23.1753.1097@39.23.1753.1097" timestamp="1588247400770" />
+    <state width="1040" height="257" key="GridCell.Tab.1.left/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179643" />
+    <state width="976" height="150" key="GridCell.Tab.1.left/41.23.1751.1097@41.23.1751.1097" timestamp="1587266884821" />
+    <state width="913" height="329" key="GridCell.Tab.1.left/42.23.1750.1097@42.23.1750.1097" timestamp="1587299959312" />
+    <state width="913" height="329" key="GridCell.Tab.1.left/43.23.1749.1097@43.23.1749.1097" timestamp="1587364233267" />
+    <state width="1215" height="224" key="GridCell.Tab.1.left/44.23.1748.1097@44.23.1748.1097" timestamp="1587179093242" />
+    <state width="1290" height="306" key="GridCell.Tab.1.left/47.23.1745.1097@47.23.1745.1097" timestamp="1586877192480" />
+    <state width="1040" height="257" key="GridCell.Tab.1.right" timestamp="1588252179643">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1047" height="217" key="GridCell.Tab.1.right/37.23.1755.1097@37.23.1755.1097" timestamp="1586782414261" />
+    <state width="1040" height="257" key="GridCell.Tab.1.right/39.23.1753.1097@39.23.1753.1097" timestamp="1588247400771" />
+    <state width="1040" height="257" key="GridCell.Tab.1.right/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179643" />
+    <state width="976" height="150" key="GridCell.Tab.1.right/41.23.1751.1097@41.23.1751.1097" timestamp="1587266884822" />
+    <state width="913" height="329" key="GridCell.Tab.1.right/42.23.1750.1097@42.23.1750.1097" timestamp="1587299959313" />
+    <state width="913" height="329" key="GridCell.Tab.1.right/43.23.1749.1097@43.23.1749.1097" timestamp="1587364233268" />
+    <state width="1215" height="224" key="GridCell.Tab.1.right/44.23.1748.1097@44.23.1748.1097" timestamp="1587179093244" />
+    <state width="1290" height="306" key="GridCell.Tab.1.right/47.23.1745.1097@47.23.1745.1097" timestamp="1586877192481" />
+    <state width="1111" height="224" key="GridCell.Tab.2.bottom" timestamp="1588252179635">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1111" height="224" key="GridCell.Tab.2.bottom/39.23.1753.1097@39.23.1753.1097" timestamp="1588245058593" />
+    <state width="1111" height="224" key="GridCell.Tab.2.bottom/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179635" />
+    <state width="1111" height="224" key="GridCell.Tab.2.center" timestamp="1588252179635">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1111" height="224" key="GridCell.Tab.2.center/39.23.1753.1097@39.23.1753.1097" timestamp="1588245058592" />
+    <state width="1111" height="224" key="GridCell.Tab.2.center/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179635" />
+    <state width="1111" height="224" key="GridCell.Tab.2.left" timestamp="1588252179634">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1111" height="224" key="GridCell.Tab.2.left/39.23.1753.1097@39.23.1753.1097" timestamp="1588245058591" />
+    <state width="1111" height="224" key="GridCell.Tab.2.left/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179634" />
+    <state width="1111" height="224" key="GridCell.Tab.2.right" timestamp="1588252179635">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state width="1111" height="224" key="GridCell.Tab.2.right/39.23.1753.1097@39.23.1753.1097" timestamp="1588245058592" />
+    <state width="1111" height="224" key="GridCell.Tab.2.right/40.23.1752.1097@40.23.1752.1097" timestamp="1588252179635" />
+    <state x="468" y="233" key="Maven.ArtifactSearchDialog" timestamp="1588132997155">
+      <screen x="37" y="23" width="1755" height="1097" />
+    </state>
+    <state x="468" y="233" key="Maven.ArtifactSearchDialog/37.23.1755.1097@37.23.1755.1097" timestamp="1588132997155" />
+    <state x="704" y="363" key="NewModule_or_Project.wizard" timestamp="1588132953270">
+      <screen x="37" y="23" width="1755" height="1097" />
+    </state>
+    <state x="704" y="363" key="NewModule_or_Project.wizard/37.23.1755.1097@37.23.1755.1097" timestamp="1588132953270" />
+    <state x="713" y="363" key="NewModule_or_Project.wizard/51.23.1741.1097@51.23.1741.1097" timestamp="1585626021499" />
+    <state x="163" y="243" key="SettingsEditor" timestamp="1588219226192">
+      <screen x="41" y="23" width="1751" height="1097" />
+    </state>
+    <state x="588" y="244" key="SettingsEditor/1792.23.1116.733/49.23.1743.1097@49.23.1743.1097" timestamp="1585620645047" />
+    <state x="589" y="244" key="SettingsEditor/1792.23.1116.733/51.23.1741.1097@51.23.1741.1097" timestamp="1585622305901" />
+    <state x="579" y="244" key="SettingsEditor/37.23.1755.1097@37.23.1755.1097" timestamp="1586781061179" />
+    <state x="163" y="243" key="SettingsEditor/41.23.1751.1097@41.23.1751.1097" timestamp="1588219226192" />
+    <state x="164" y="243" key="SettingsEditor/42.23.1750.1097@42.23.1750.1097" timestamp="1587356148392" />
+    <state x="166" y="243" key="SettingsEditor/44.23.1748.1097@44.23.1748.1097" timestamp="1587178969812" />
+    <state x="587" y="244" key="SettingsEditor/48.23.1744.1097@48.23.1744.1097" timestamp="1586915376635" />
+    <state x="589" y="244" key="SettingsEditor/51.23.1741.1097@51.23.1741.1097" timestamp="1585626023883" />
+    <state x="220" y="314" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587176226360">
+      <screen x="44" y="23" width="1748" height="1097" />
+    </state>
+    <state x="220" y="314" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/44.23.1748.1097@44.23.1748.1097" timestamp="1587176226360" />
+    <state x="297" y="220" width="942" height="581" key="new project wizard" timestamp="1588232558690">
+      <screen x="40" y="23" width="1752" height="1097" />
+    </state>
+    <state x="549" y="147" key="new project wizard/1792.23.1116.733/49.23.1743.1097@49.23.1743.1097" timestamp="1585620546754" />
+    <state x="546" y="147" key="new project wizard/1792.23.1116.733/51.23.1741.1097@51.23.1741.1097" timestamp="1585622203145" />
+    <state x="255" y="435" key="new project wizard/37.23.1755.1097@37.23.1755.1097" timestamp="1588132173304" />
+    <state x="537" y="147" key="new project wizard/39.23.1753.1097@39.23.1753.1097" timestamp="1586868807951" />
+    <state x="297" y="220" key="new project wizard/40.23.1752.1097@40.23.1752.1097" timestamp="1588232558690" />
+    <state x="202" y="189" key="new project wizard/41.23.1751.1097@41.23.1751.1097" timestamp="1588219153164" />
+    <state x="540" y="147" key="new project wizard/43.23.1749.1097@43.23.1749.1097" timestamp="1588054476165" />
+    <state x="546" y="147" key="new project wizard/45.23.1747.1097@45.23.1747.1097" timestamp="1585570038811" />
+    <state x="773" y="147" width="942" height="581" key="new project wizard/47.23.1745.1097@47.23.1745.1097" timestamp="1585568528755" />
+    <state x="755" y="266" key="run.anything.popup" timestamp="1587356138795">
+      <screen x="42" y="23" width="1750" height="1097" />
+    </state>
+    <state x="755" y="266" key="run.anything.popup/42.23.1750.1097@42.23.1750.1097" timestamp="1587356138795" />
+    <state x="875" y="268" width="671" height="676" key="search.everywhere.popup" timestamp="1587650005818">
+      <screen x="44" y="23" width="1748" height="1097" />
+    </state>
+    <state x="873" y="268" width="671" height="676" key="search.everywhere.popup/40.23.1752.1097@40.23.1752.1097" timestamp="1586945173660" />
+    <state x="874" y="268" width="670" height="676" key="search.everywhere.popup/41.23.1751.1097@41.23.1751.1097" timestamp="1586931362210" />
+    <state x="873" y="268" width="673" height="676" key="search.everywhere.popup/42.23.1750.1097@42.23.1750.1097" timestamp="1587294657018" />
+    <state x="874" y="268" width="672" height="676" key="search.everywhere.popup/43.23.1749.1097@43.23.1749.1097" timestamp="1587365581872" />
+    <state x="875" y="268" width="671" height="676" key="search.everywhere.popup/44.23.1748.1097@44.23.1748.1097" timestamp="1587650005818" />
+    <state x="876" y="268" width="670" height="676" key="search.everywhere.popup/45.23.1747.1097@45.23.1747.1097" timestamp="1587105165922" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceTest/src/main/java/com/atguigu/test/mapreducetest/WordCountReducer.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceTest/src/main/java/com/atguigu/test/mapreducetest/WordCountMapper.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/wordcount/WordCountReducer.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/wordcount/WordCountMapper.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.java</url>
+          <line>390</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/writable/FlowDriver.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/source/WordCountDriver.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Job.java</url>
+          <line>1563</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Job.java</url>
+          <line>1539</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Job.java</url>
+          <line>1587</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Cluster.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Cluster.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Cluster.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Cluster.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Job.java</url>
+          <line>1569</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>276</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobResourceUploader.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobResourceUploader.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>323</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/JobSubmitter.java</url>
+          <line>261</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/JobID.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/JobID.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3.jar!/org/apache/hadoop/mapred/LocalJobRunner.class</url>
+          <line>490</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3.jar!/org/apache/hadoop/mapred/LocalJobRunner.class</url>
+          <line>507</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3.jar!/org/apache/hadoop/mapred/LocalJobRunner.class</url>
+          <line>503</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3.jar!/org/apache/hadoop/mapred/LocalJobRunner.class</url>
+          <line>509</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3.jar!/org/apache/hadoop/mapred/LocalJobRunner.class</url>
+          <line>510</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>536</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>551</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>550</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>546</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>543</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>468</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>469</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>787</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>524</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>331</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>253</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-common/3.1.3/hadoop-mapreduce-client-common-3.1.3-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java</url>
+          <line>270</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>346</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>751</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>756</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>760</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>764</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>769</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>781</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>709</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>777</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>392</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>407</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>979</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>981</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>993</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>999</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>1001</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>1057</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>798</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapred/MapTask.java</url>
+          <line>804</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/LocalRepository/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.3/hadoop-mapreduce-client-core-3.1.3-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/source/WordCountMapper.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceDemo/src/main/java/com/atguigu/mr/exertest3/OneShareFriendsMapper.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MapReduceTest/src/main/java/com/atguigu/test/exam/OrderBean.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/MapReduceTest/src/main/java/com/atguigu/test/exam/OrderBean.java</url>
+          <line>23</line>
+          <properties class="com.atguigu.test.exam.OrderBean" method="getId">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

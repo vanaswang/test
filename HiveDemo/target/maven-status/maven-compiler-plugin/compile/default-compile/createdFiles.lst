@@ -1,0 +1,6 @@
+com/atguigu/hive/etl/EtlMapper.class
+com/atguigu/hive/etl/EtlDriver.class
+com/atguigu/hive/MyUDF.class
+com/atguigu/hive/MyUDTF.class
+com/atguigu/hive/etl/EtlUtils.class
+com/atguigu/hive/MyUDTF2.class

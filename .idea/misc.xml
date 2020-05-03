@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/WEBTEST" />
+    <file type="web" url="file://$PROJECT_DIR$/../HelloWeb" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Hello/pom.xml" />
+        <option value="$PROJECT_DIR$/HelloFried/pom.xml" />
+        <option value="$PROJECT_DIR$/MakeFriend/pom.xml" />
+        <option value="$PROJECT_DIR$/OurFriend/pom.xml" />
+        <option value="$PROJECT_DIR$/Parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../HelloWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/Hdfstest/pom.xml" />
+        <option value="$PROJECT_DIR$/Hdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/MapReduceDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MapReduceTest/pom.xml" />
+        <option value="$PROJECT_DIR$/ZooKeeperDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Hive/pom.xml" />
+        <option value="$PROJECT_DIR$/HiveDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/WEBTEST/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootdemo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

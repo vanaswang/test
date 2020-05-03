@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springbootdemo" />
+        <module name="WEBTEST" />
+        <module name="OurFriend" />
+        <module name="ZooKeeperDemo" />
+        <module name="Hdfs" />
+        <module name="HelloFried" />
+        <module name="Hdfstest" />
+        <module name="HiveDemo" />
+        <module name="MapReduceTest" />
+        <module name="Hello" />
+        <module name="MapReduceDemo" />
+        <module name="MakeFriend" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Hdfs" target="1.5" />
+      <module name="Hdfstest" target="1.5" />
+      <module name="Hdfstest2" target="1.5" />
+      <module name="Hello" target="1.5" />
+      <module name="HelloFried" target="1.5" />
+      <module name="HelloWeb" target="1.5" />
+      <module name="HiveDemo" target="1.5" />
+      <module name="HiveDemo1" target="1.5" />
+      <module name="MakeFriend" target="1.5" />
+      <module name="MapReduceDemo" target="1.5" />
+      <module name="MapReduceTest" target="1.5" />
+      <module name="OurFriend" target="1.5" />
+      <module name="Parent" target="1.5" />
+      <module name="springbootdemo" target="1.8" />
+      <module name="WEBTEST" target="1.5" />
+      <module name="ZooKeeperDemo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springbootdemo" options="-parameters" />
+    </option>
+  </component>
+</project>

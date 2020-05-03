@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hdfs/Hdfs.iml" filepath="$PROJECT_DIR$/Hdfs/Hdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hdfstest/Hdfstest.iml" filepath="$PROJECT_DIR$/Hdfstest/Hdfstest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello/Hello.iml" filepath="$PROJECT_DIR$/Hello/Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloFried/HelloFried.iml" filepath="$PROJECT_DIR$/HelloFried/HelloFried.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWeb/HelloWeb.iml" filepath="$PROJECT_DIR$/HelloWeb/HelloWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HiveDemo/HiveDemo.iml" filepath="$PROJECT_DIR$/HiveDemo/HiveDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HiveDemo/HiveDemo1.iml" filepath="$PROJECT_DIR$/HiveDemo/HiveDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MakeFriend/MakeFriend.iml" filepath="$PROJECT_DIR$/MakeFriend/MakeFriend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapReduceDemo/MapReduceDemo.iml" filepath="$PROJECT_DIR$/MapReduceDemo/MapReduceDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapReduceTest/MapReduceTest.iml" filepath="$PROJECT_DIR$/MapReduceTest/MapReduceTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OurFriend/OurFriend.iml" filepath="$PROJECT_DIR$/OurFriend/OurFriend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parent/Parent.iml" filepath="$PROJECT_DIR$/Parent/Parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WEBTEST/WEBTEST.iml" filepath="$PROJECT_DIR$/WEBTEST/WEBTEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZooKeeperDemo/ZooKeeperDemo.iml" filepath="$PROJECT_DIR$/ZooKeeperDemo/ZooKeeperDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootdemo/springbootdemo.iml" filepath="$PROJECT_DIR$/springbootdemo/springbootdemo.iml" />
+    </modules>
+  </component>
+</project>
